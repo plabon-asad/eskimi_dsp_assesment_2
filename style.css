@@ -1,0 +1,38 @@
+.container, .main-box {
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    position: relative;
+}
+
+.main-box {
+    background-image: url("img/bg-text.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.map {
+    background-image: url(img/map.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 110px;
+    top: 50px;
+    z-index: 10;
+    width: 100px;
+    height: 150px;
+}
+
+div#deactive-cards {
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+    text-align: center;
+}
+
+div#deactive-cards img {
+    margin-right: 15px;
+}
